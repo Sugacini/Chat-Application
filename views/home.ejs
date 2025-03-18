@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Black+Ops+One&family=Concert+One&family=Francois+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Luckiest+Guy&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="firstPage">
+        <div id="heading">CHAT APPLICATION</div>
+        <div class="optionsDiv">
+            <button id="private" onclick="room('private')" value="private">Private Chat</button>
+            <button id="group" onclick="room('group')">Group Chat</button>
+        </div>
+    </div>
+
+    <div class="roomCreated">
+        <p class="chatOfPrivate">Private Chat</p>
+        <div class="joinOfRoom">
+            <button id="createRoom" onclick="hide()">Create Room</button>
+            <button id="joinRoom" onclick="hide1()">Join Room</button>
+        </div>
+        
+    </div>
+
+    <div class="create">
+        <p id="cRoom">Create Room</p>
+        <div class="cRoomCreate">
+            <input type="text" id="rName" placeholder="Enter the Room Name" required>
+            <button id="roomName" onclick="join()">Create Room</button>
+        </div>
+        
+    </div>
+
+    <div class="roomJoin">
+        <p id="jRoom">Join Room</p>
+        <div class="cRoomCreate">
+            <input type="text" id="rName1" placeholder="Enter the Room Name" required>
+            <button id="roomName1" onclick="join1()">Join Room</button>
+        </div>
+        
+    </div>
+
+    <p id="header">CHAT APPLICATION</p>
+    <div class="outerDiv">
+        <div class="roomAndName">
+            <div id="user"></div>
+            <div id="nameOfRoom"></div>
+        </div>
+        <div class="message" id="message">
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Enter the message" id="inputValue">
+            <button value="send" id="sendMessage">Send</button>
+        </div>
+    </div>
+
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+</body>
+</html>

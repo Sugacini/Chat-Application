@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: -0.8%;
+    background-color: #1C2A38;
+    font-family: "Concert One", serif;
+    overflow: hidden;
+}
+
+.outerDiv{
+    width: 99.9%;
+    height: 1000px;
+    background-color: antiquewhite;
+    padding-top: 1.5%;
+    display: none;
+    row-gap: 5%;
+}
+
+.message{
+    width: 93%;
+    height: 750px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 2%;
+}
+
+.input{
+    width: 98%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+#inputValue{
+    width: 90%;
+    height: 60px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    font-family: "Concert One", serif;
+}
+
+#sendMessage{
+    width: 9%;
+    height: 65px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-family: "Concert One", serif;
+}
+  
+  
+.firstPage{
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+#heading{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+}
+
+.optionsDiv{
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#private{
+    width: 90%;
+    height: 70px;
+    border: 1px solid yellow;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    font-size: 2.5em;
+    cursor: pointer;
+    background-color: goldenrod;
+    font-family: "Concert One", serif;
+}
+
+#group{
+    width: 90%;
+    height: 70px;
+    border: 1px solid yellow;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    font-size: 2.5em;
+    cursor: pointer;
+    background-color: goldenrod;
+    font-family: "Concert One", serif;
+}
+
+.roomCreated{
+    width: 40%;
+    height: 500px;
+    display: none;
+    margin: auto;
+    margin-top: 15%;
+    border: 1px solid white;
+    background-color: rgb(39 58 39);;
+}
+
+.chatOfPrivate{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bolder;
+    color: white;
+}
+
+.joinOfRoom{
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#createRoom{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Concert One", serif;
+}
+
+#joinRoom{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Concert One", serif;
+}
+
+.create{
+    width: 40%;
+    height: 400px;
+    background-color: rgb(47, 47, 82);
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    display: none;
+}
+
+#cRoom{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.cRoomCreate{
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    margin-top: 6%;
+}
+
+#rName{
+    width: 90%;
+    height: 70px;
+    margin-left: 5%;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    font-family: "Concert One", serif;
+}
+
+#roomName{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 15px;
+    font-family: "Concert One", serif;
+}
+
+.roomJoin{
+    width: 40%;
+    height: 400px;
+    background-color: rgb(47, 47, 82);
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    display: none;
+}
+
+#jRoom{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+}
+
+#rName1{
+    width: 90%;
+    height: 70px;
+    margin-left: 5%;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    font-family: "Concert One", serif;
+}
+
+#roomName1{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 15px;
+    font-family: "Concert One", serif;
+}
+
+.msg{
+    background-color : aliceblue;
+    width: auto;
+    font-size: 1.5em;
+    margin-top: -1%;
+}
+
+.msg1{
+    width: auto;
+    font-size: 1.5em;
+    color: #8084ff;
+}
+
+#msgDiv{
+    margin-top: -1%;
+}
+
+#header{
+    width: 100%;
+    height: 15px;
+    font-size: 3em;
+    font-family: "Concert One", serif;
+    color: white;
+    display: none;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 1%;
+}
+
+.roomAndName{
+    width: 93%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#user{
+    width: 30%;
+    height: 100%;
+    border: 2px solid;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#nameOfRoom{
+    width: 30%;
+    height: 100%;
+    border: 2px solid;
+    display: flex;
+    border-bottom: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
